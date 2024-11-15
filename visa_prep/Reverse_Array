@@ -1,0 +1,5 @@
+n=int(input())
+a=list(map(int,input().split()))
+rev_arr=a[::-1]
+for i in rev_arr:
+    print(i,end=" ")
