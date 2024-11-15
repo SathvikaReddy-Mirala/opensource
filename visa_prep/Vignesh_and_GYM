@@ -1,0 +1,8 @@
+x,y,z= map(int,input().split())
+total=x+y
+if x>z:
+    print(0)
+elif total<=z:
+    print(2)
+else:
+    print(1)
