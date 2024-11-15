@@ -1,0 +1,8 @@
+x=int(input())
+dis_10_per=x*0.10
+dis_flat=100
+if dis_10_per>dis_flat:
+    amount=x-dis_10_per
+else:
+    amount=x-dis_flat
+print(int(amount))
